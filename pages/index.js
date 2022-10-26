@@ -36,7 +36,7 @@ export default function Home() {
                 className="cursor-pointer text-2xl dark:text-white hover:text-teal-600 dark:hover:text-teal-600"/>
               </li>
             <li>
-              <a className="bg-teal-600 text-white px-4 py-2 rounded-md ml-8 hover:bg-teal-500" href="https://app.flowcv.com/resume-feedback/y2knfnFfOl6HjGDIv7tlW" target="_blank">Resume</a>
+              <a className="bg-teal-600 text-white px-4 py-2 rounded-md ml-8 hover:bg-teal-500" href="https://app.flowcv.com/resume-feedback/y2knfnFfOl6HjGDIv7tlW" target="_blank" rel="noreferrer">Resume</a>
               </li>
           </ul>
         </nav>
@@ -53,11 +53,11 @@ export default function Home() {
             <MdEmail className="hover:text-teal-600 cursor-pointer hover:animate-bounce" />
           </a>
 
-          <a href="https://github.com/rldyen" target="_blank">
+          <a href="https://github.com/rldyen" target="_blank" rel="noreferrer">
             <AiFillGithub className="hover:text-teal-600 cursor-pointer hover:animate-bounce" />
           </a>
         
-          <a href="https://www.linkedin.com/in/roaldyen/" target="_blank">
+          <a href="https://www.linkedin.com/in/roaldyen/" target="_blank" rel="noreferrer">
             <AiFillLinkedin className="hover:text-teal-600 cursor-pointer hover:animate-bounce" />
           </a>
         </div>
@@ -128,7 +128,7 @@ export default function Home() {
           </div>
           <div className="flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap">
             <div className="basis-1/3 flex-1">
-              <a className="cursor-pointer" href="https://asea-iwork-builders-co.vercel.app/home" target="_blank">
+              <a className="cursor-pointer" href="https://asea-iwork-builders-co.vercel.app/home" target="_blank" rel="noreferrer">
                 <Image 
                 src={ASEA} 
                 className="rounded-lg object-cover transition duration-500 hover:scale-105" 
@@ -138,7 +138,7 @@ export default function Home() {
               </a>
             </div>
             <div className="basis-1/3 flex-1">
-              <a className="cursor-pointer" href="https://github.com/rldyen/UMatter_MobileApplication" target="_blank">
+              <a className="cursor-pointer" href="https://github.com/rldyen/UMatter_MobileApplication" target="_blank" rel="noreferrer">
                 <Image 
                 src={UMatter} 
                 className="rounded-lg object-cover transition duration-500 hover:scale-105" 
@@ -148,7 +148,7 @@ export default function Home() {
               </a>
             </div>
             <div className="basis-1/3 flex-1">
-              <a className="cursor-pointer" href="https://github.com/rldyen/USTracer_FinalProject" target="_blank">
+              <a className="cursor-pointer" href="https://github.com/rldyen/USTracer_FinalProject" target="_blank" rel="noreferrer">
                 <Image 
                 src={USTracer} 
                 className="rounded-lg object-cover transition duration-500 hover:scale-105" 
@@ -158,7 +158,7 @@ export default function Home() {
               </a>
             </div>
             <div className="basis-1/3 flex-1">
-              <a className="cursor-pointer" href="https://github.com/rldyen/Equipment_Management_System_FinalProject" target="_blank">
+              <a className="cursor-pointer" href="https://github.com/rldyen/Equipment_Management_System_FinalProject" target="_blank" rel="noreferrer">
                 <Image 
                 src={EquipmentManagement} 
                 className="rounded-lg object-cover transition duration-500 hover:scale-105" 
