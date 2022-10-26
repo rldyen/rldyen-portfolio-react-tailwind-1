@@ -63,7 +63,9 @@ export default function Home() {
         </div>
         <div className="relative mx-auto rounded-full w-80 h-80 mt-20 overflow-hidden md:h-96 md:w-96 transform transition duration-500 hover:scale-110 shadow-lg">
           <Image
-            src={profilepic} />
+            src={profilepic} 
+            alt={'photo'}
+            />
         </div>
 
         </section>
@@ -77,7 +79,7 @@ export default function Home() {
             As someone who is enthusiastic about technology, I am most especially eager to the concept of creating web-based applications and programs by means of using modern technologies.
             I am very interested in doing UI/UX Designs, and I am in the process of continuously improving my skills to become a well-known UI/UX Designer in the IT industry. I also enjoy doing Front-End Development in Web Development and my passion is focused on designing and creating appealing interfaces for both Web and Mobile Applications.</p>
             <p className="text-md py-2 leading-8 text-gray-800 text-justify max-w-5xl mx-auto dark:text-white">
-            I am currently taking up my <span className="text-teal-600 font-medium">Bachelor's Degree in Information Technology, Majoring in Web and Mobile Application Development </span> at the University of Santo Tomas.
+            I am currently taking up my <span className="text-teal-600 font-medium">Bachelor&apos;s Degree in Information Technology, Majoring in Web and Mobile Application Development </span> at the University of Santo Tomas.
               </p>
           </div>
           <div>
@@ -86,7 +88,7 @@ export default function Home() {
 
           <div className="lg:flex gap-10 justify-center">
             <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white transform transition duration-500 hover:scale-110">
-              <Image src={USTCICSlogo} width={100} height={100} className="mx-auto"/>
+              <Image src={USTCICSlogo} alt={'logo'} width={100} height={100} className="mx-auto"/>
               <h4 className="text-l font-medium pt-8 pb-2 ">University of Santo Tomas <br/>College of Information and <br/>Computing Sciences</h4>
               <p className="py-2">
                 Tertiary
@@ -94,7 +96,7 @@ export default function Home() {
             </div>
             <div>
             <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white transform transition duration-500 hover:scale-110">
-              <Image src={USTSHSlogo} width={100} height={100} className="mx-auto"/>
+              <Image src={USTSHSlogo} alt={'logo'} width={100} height={100} className="mx-auto"/>
               <h3 className="text-l font-medium pt-8 pb-2 ">University of Santo Tomas <br/>Senior High <br/>School</h3>
               <p className="py-2">
                 Upper Secondary
@@ -103,7 +105,7 @@ export default function Home() {
           </div>
           <div>
             <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white transform transition duration-500 hover:scale-110">
-              <Image src={MAVlogo} width={100} height={100} className="mx-auto"/>
+              <Image src={MAVlogo} alt={'logo'} width={100} height={100} className="mx-auto"/>
               <h3 className="text-l font-medium pt-8 pb-2 ">Montessori <br/>Academy of <br/>Valenzuela</h3>
               <p className="py-2">
                 Lower Secondary
@@ -112,7 +114,7 @@ export default function Home() {
           </div>
           <div>
             <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white transform transition duration-500 hover:scale-110">
-              <Image src={SRMlogo} width={100} height={100} className="mx-auto"/>
+              <Image src={SRMlogo} alt={'logo'} width={100} height={100} className="mx-auto"/>
               <h3 className="text-l font-medium pt-8 pb-2 ">Sto. Rosario<br/>Montessori<br/>School</h3>
               <p className="py-2">
                 Primary
@@ -131,6 +133,7 @@ export default function Home() {
               <a className="cursor-pointer" href="https://asea-iwork-builders-co.vercel.app/home" target="_blank" rel="noreferrer">
                 <Image 
                 src={ASEA} 
+                alt={'website'}
                 className="rounded-lg object-cover transition duration-500 hover:scale-105" 
                 width={'100%'} 
                 height={'100%'} 
@@ -141,6 +144,7 @@ export default function Home() {
               <a className="cursor-pointer" href="https://github.com/rldyen/UMatter_MobileApplication" target="_blank" rel="noreferrer">
                 <Image 
                 src={UMatter} 
+                alt={'website'}
                 className="rounded-lg object-cover transition duration-500 hover:scale-105" 
                 width={'100%'} 
                 height={'100%'} 
@@ -151,6 +155,7 @@ export default function Home() {
               <a className="cursor-pointer" href="https://github.com/rldyen/USTracer_FinalProject" target="_blank" rel="noreferrer">
                 <Image 
                 src={USTracer} 
+                alt={'website'}
                 className="rounded-lg object-cover transition duration-500 hover:scale-105" 
                 width={'100%'} 
                 height={'100%'} 
@@ -161,6 +166,7 @@ export default function Home() {
               <a className="cursor-pointer" href="https://github.com/rldyen/Equipment_Management_System_FinalProject" target="_blank" rel="noreferrer">
                 <Image 
                 src={EquipmentManagement} 
+                alt={'website'}
                 className="rounded-lg object-cover transition duration-500 hover:scale-105" 
                 width={'100%'} 
                 height={'100%'} 
