@@ -13,6 +13,10 @@ import ASEA from '../public/projectASEA.jpg';
 import UMatter from '../public/projectUMatter.png';
 import USTracer from '../public/projectUSTracer.jpg';
 import EquipmentManagement from '../public/projectEquipmentManagementSystem.jpg';
+import BayanAcademy from '../public/projectBayanAcademy.jpg';
+import TeeHP from '../public/projectTeeHP.jpg';
+import USTH from '../public/projectUSTH.jpg';
+
 import { useState } from 'react';
 
 export default function Home() {
@@ -79,7 +83,7 @@ export default function Home() {
             As someone who is enthusiastic about technology, I am most especially eager to the concept of creating web-based applications and programs by means of using modern technologies.
             I am very interested in doing UI/UX Designs, and I am in the process of continuously improving my skills to become a well-known UI/UX Designer in the IT industry. I also enjoy doing Front-End Development in Web Development and my passion is focused on designing and creating appealing interfaces for both Web and Mobile Applications.</p>
             <p className="text-md py-2 leading-8 text-gray-800 text-justify max-w-5xl mx-auto dark:text-white">
-            I am currently taking up my <span className="text-teal-600 font-medium">Bachelor&apos;s Degree in Information Technology, Majoring in Web and Mobile Application Development </span> at the University of Santo Tomas.
+            I am currently taking up my <span className="text-teal-600 font-medium">Bachelor&apos;s Degree in Information Technology, Specializing in Web and Mobile Application Development</span> at the University of Santo Tomas.
               </p>
           </div>
           <div>
@@ -129,6 +133,39 @@ export default function Home() {
             <h3 className="text-3xl py-1 pt-5 text-center dark:text-white">Projects Worked On</h3>
           </div>
           <div className="flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap">
+          <div className="basis-1/3 flex-1">
+                <a className="cursor-pointer" href="https://usth.vercel.app/" target="_blank" rel="noreferrer">
+                      <Image 
+                      src={USTH} 
+                      alt={'website'}
+                      className="rounded-lg object-cover transition duration-500 hover:scale-105" 
+                      width={'100%'} 
+                      height={'100%'} 
+                      layout="responsive"/>
+                </a>
+              </div>
+            <div className="basis-1/3 flex-1">
+                <a className="cursor-pointer" href="http://ec2-54-251-226-55.ap-southeast-1.compute.amazonaws.com" target="_blank" rel="noreferrer">
+                      <Image 
+                      src={TeeHP} 
+                      alt={'website'}
+                      className="rounded-lg object-cover transition duration-500 hover:scale-105" 
+                      width={'100%'} 
+                      height={'100%'} 
+                      layout="responsive"/>
+                </a>
+              </div>
+            <div className="basis-1/3 flex-1">
+              <a className="cursor-pointer" href="https://github.com/rldyen/backend-101-beginners-finalproject" target="_blank" rel="noreferrer">
+                    <Image 
+                    src={BayanAcademy} 
+                    alt={'website'}
+                    className="rounded-lg object-cover transition duration-500 hover:scale-105" 
+                    width={'100%'} 
+                    height={'100%'} 
+                    layout="responsive"/>
+              </a>
+            </div>
             <div className="basis-1/3 flex-1">
               <a className="cursor-pointer" href="https://asea-iwork-builders-co.vercel.app/home" target="_blank" rel="noreferrer">
                 <Image 
